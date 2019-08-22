@@ -6,5 +6,5 @@ build:
   verbosity: minimal
   
 artifacts:
-  - path: Mouse-Button-Swap.zip
+  - path: bin\x86\Release\Mouse-Button-Swap.zip
     name: MyApp
