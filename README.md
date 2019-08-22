@@ -1,4 +1,4 @@
- * Travis CI[![Build Status](https://travis-ci.org/Possessed777/Mouse-Button-Swap.svg?branch=master)](https://travis-ci.org/Possessed777/Mouse-Button-Swap)
+  Travis CI [![Build Status](https://travis-ci.org/Possessed777/Mouse-Button-Swap.svg?branch=master)](https://travis-ci.org/Possessed777/Mouse-Button-Swap)
  * Created by
  * User: Possessed
  * Date: 22/08/2019
