@@ -2,20 +2,15 @@
  * User: Possessed
  * Date: 22/08/2019
  * Time: 08:36
- * 
  * TODO: Automatically Install the Left Handed Cursors Package.
- * 
  * Credits:
  * nyritha from deviantart.com for the Aero Left Handed cursor pack.
  * https://www.deviantart.com/nyritha/art/Aero-Left-Handed-cursor-pack-326620456
- * 
  * Icon by zerode from 
  * http://www.iconarchive.com/show/plump-icons-by-zerode/Document-config-icon.html
- * 
  * stackolverflow.com for the code snippets and all the useful stuff.
  * https://stackoverflow.com/questions/41713827/programmatically-change-custom-mouse-cursor-in-windows
- * 
- * Requires .NET Framework 2.0
+ * Requires .NET Framework 2.0 (if compiled with VS)
  
 # Mouse Button Swap
  * Console app written in C# to Swap the mouse buttons for left handed people, also changes the mouse cursor for left handed ones.
@@ -32,7 +27,8 @@
  * https://github.com/Possessed777/Mouse-Button-Swap/releases
  
 # Compile
- * If you have .NET Framework Installed, you can compile the source file with csc.exe, no extra requirements.
+ * If you have ONLY .NET Framework Installed, you can compile the source file with csc.exe, no extra requirements.
  * How to:
  * https://jrliv.com/post/get-started-using-csharp-without-visual-studio/
  * https://stackoverflow.com/questions/18286855/how-can-i-compile-and-run-c-sharp-program-without-using-visual-studio
+ * Otherwise use Visual Studio (2019), must be backwards compatible with older versions.
