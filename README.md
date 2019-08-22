@@ -1,4 +1,3 @@
-/*
  * Created by
  * User: Possessed
  * Date: 22/08/2019
@@ -17,7 +16,6 @@
  * https://stackoverflow.com/questions/41713827/programmatically-change-custom-mouse-cursor-in-windows
  * 
  * Requires .NET Framework 2.0
- */
  
 # Mouse Button Swap
  * Console app written in C# to Swap the mouse buttons for left handed people, also changes the mouse cursor for left handed ones.
