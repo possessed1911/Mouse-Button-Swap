@@ -4,8 +4,14 @@ platform: x86
 build:
   project: Mouse-Button-Swap.sln
   verbosity: minimal
+
+after_build:
+  - sh: 7z a Mouse-Button-Swap.zip bin\x86\Release\Mouse-Button-Swap.exe
   
 artifacts:
   - path: bin\x86\Release\Mouse-Button-Swap.exe
     name: MyApp
+    
+  - path: bin\x86\Release\Mouse-Button-Swap.zip
+    name: MyAppZip
     type: zip
