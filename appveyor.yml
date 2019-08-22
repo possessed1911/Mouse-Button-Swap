@@ -6,8 +6,8 @@ build:
   verbosity: minimal
 
 after_build:
-  - sh: 7z a Mouse-Button-Swap.zip bin\x86\Release\Mouse-Button-Swap.exe
-  
+  - sh: 7z a Mouse-Button-Swap.zip %APPVEYOR_BUILD_FOLDER%\bin\x86\Release\Mouse-Button-Swap.exe
+
 artifacts:
   - path: bin\x86\Release\Mouse-Button-Swap.exe
     name: MyApp
