@@ -1,13 +1,23 @@
- * Created by Possessed using SharpDevelop.
- * Date: 18/08/2019
- * Time: 10:59 -3 GMT
- * [![Build Status](https://dev.azure.com/possessed777/Mouse-Button-Swap/_apis/build/status/Possessed777.Mouse-Button-Swap?branchName=master)](https://dev.azure.com/possessed777/Mouse-Button-Swap/_build/latest?definitionId=2&branchName=master)
+/*
+ * Created by
+ * User: Possessed
+ * Date: 22/08/2019
+ * Time: 08:36
+ * 
  * TODO: Automatically Install the Left Handed Cursors Package.
+ * 
  * Credits:
  * nyritha from deviantart.com for the Aero Left Handed cursor pack.
- * www.deviantart.com/nyritha/art/Aero-Left-Handed-cursor-pack-326620456
+ * https://www.deviantart.com/nyritha/art/Aero-Left-Handed-cursor-pack-326620456
+ * 
+ * Icon by zerode from 
+ * http://www.iconarchive.com/show/plump-icons-by-zerode/Document-config-icon.html
+ * 
  * stackolverflow.com for the code snippets and all the useful stuff.
  * https://stackoverflow.com/questions/41713827/programmatically-change-custom-mouse-cursor-in-windows
+ * 
+ * Requires .NET Framework 2.0
+ */
  
 # Mouse Button Swap
  * Console app written in C# to Swap the mouse buttons for left handed people, also changes the mouse cursor for left handed ones.
