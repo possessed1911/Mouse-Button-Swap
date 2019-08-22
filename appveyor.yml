@@ -12,6 +12,6 @@ artifacts:
   - path: bin\x86\Release\Mouse-Button-Swap.exe
     name: MyApp
     
-  - path: bin\x86\Release\Mouse-Button-Swap.zip
+  - path: Mouse-Button-Swap.zip
     name: MyAppZip
     type: zip
