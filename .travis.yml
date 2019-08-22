@@ -1,4 +1,4 @@
 language: csharp
 solution: "Mouse-Button-Swap.sln"
 script:
-- msbuild /p:Configuration=Release;Platform=x86;PlatformTarget=x86 Mouse-Button-Swap.sln
+- msbuild /p:Platform=x86 /p:PlatformTarget=x86 /p:Configuration=Release Mouse-Button-Swap.sln
