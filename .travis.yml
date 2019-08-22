@@ -1,0 +1,4 @@
+language: csharp
+solution: "Mouse-Button-Swap.sln"
+script:
+- xbuild ./Mouse-Button-Swap.sln
